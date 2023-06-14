@@ -9,6 +9,7 @@ import Item from "../components/Item";
 import ItemsGrid from "../components/ItemsGrid";
 import Label from "../components/Label";
 
+import Banner from "../components/Banner";
 import BigButton from "../components/BigButton";
 import CenteredContainer from "../components/CenteredContainer";
 import PageLayout from "../components/PageLayout";
@@ -34,6 +35,16 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
 export default function Product({ document }: TemplateProps) {
   return (
     <>
+      <Banner
+        address={{
+          countryCode: `${document.address.countryCode}`,
+          postalCode: `${document.address.postalCode}`,
+          region: `${document.address.region}`,
+          city: `${document.address.city}`,
+          line1: `${document.address.line1}`,
+        }}
+        name={``}
+      />
       <PageLayout backgroundColor="#FFFFFF">
         <HeaderSimple
           backgroundColor="#BAD8FD"

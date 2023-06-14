@@ -7,6 +7,16 @@
 		"streamId": "skis",
 		"templateType": "JS"
 	},
+	"address": {
+		"city": "New York",
+		"countryCode": "US",
+		"line1": "269 West 72nd Street apt 5a",
+		"line2": "5a",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "New York",
+		"postalCode": "10023",
+		"region": "NY"
+	},
 	"businessId": 3216608,
 	"c_price": "699.99",
 	"description": "Looking for reliable and dynamic skis that are perfect for both groomed and ungroomed conditions? The Blazing Fast Skis have got you covered! These highly versatile freestyle skis feature a playful rockered tip and tail, which provides ample floatation in deep snow while maintaining stability on hardpack. Its lightweight Poplar-Core construction lends it the perfect balance of strength, agility and flexibility to perform on any terrain, making it an ideal option for intermediate or advanced skiers who want to push boundaries.",
@@ -30,8 +40,6 @@
 			}
 		}
 	],
-	"ref_listings": [],
-	"ref_reviewsAgg": [],
 	"siteDomain": "",
 	"siteId": 0,
 	"siteInternalHostName": "",

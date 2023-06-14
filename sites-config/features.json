@@ -28,7 +28,8 @@
         "c_price",
         "description",
         "photoGallery",
-        "slug"
+        "slug",
+        "address"
       ]
     }
   ]
